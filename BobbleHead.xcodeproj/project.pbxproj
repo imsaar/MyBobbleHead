@@ -22,6 +22,8 @@
 		CFD8D4361352A1FA00006C88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFD8D4341352A1FA00006C88 /* InfoPlist.strings */; };
 		CFD8D4391352A1FA00006C88 /* BobbleHeadTests.h in Resources */ = {isa = PBXBuildFile; fileRef = CFD8D4381352A1FA00006C88 /* BobbleHeadTests.h */; };
 		CFD8D43B1352A1FA00006C88 /* BobbleHeadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD8D43A1352A1FA00006C88 /* BobbleHeadTests.m */; };
+		CFD8D4451352A2AE00006C88 /* Che Guevara shirt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFD8D4441352A2AE00006C88 /* Che Guevara shirt.jpg */; };
+		CFD8D4471352A63A00006C88 /* ali_large_head.png in Resources */ = {isa = PBXBuildFile; fileRef = CFD8D4461352A63A00006C88 /* ali_large_head.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +41,24 @@
 		CFD8D40B1352A1FA00006C88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CFD8D40D1352A1FA00006C88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CFD8D40F1352A1FA00006C88 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CFD8D4131352A1FA00006C88 /* BobbleHead-Info.plist */ = {isa = PBXFileReference; path = "BobbleHead-Info.plist"; sourceTree = "<group>"; };
+		CFD8D4131352A1FA00006C88 /* BobbleHead-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BobbleHead-Info.plist"; sourceTree = "<group>"; };
 		CFD8D4151352A1FA00006C88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CFD8D4171352A1FA00006C88 /* BobbleHead-Prefix.pch */ = {isa = PBXFileReference; path = "BobbleHead-Prefix.pch"; sourceTree = "<group>"; };
+		CFD8D4171352A1FA00006C88 /* BobbleHead-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BobbleHead-Prefix.pch"; sourceTree = "<group>"; };
 		CFD8D4181352A1FA00006C88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CFD8D41A1352A1FA00006C88 /* BobbleHeadAppDelegate.h */ = {isa = PBXFileReference; path = BobbleHeadAppDelegate.h; sourceTree = "<group>"; };
+		CFD8D41A1352A1FA00006C88 /* BobbleHeadAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BobbleHeadAppDelegate.h; sourceTree = "<group>"; };
 		CFD8D41B1352A1FA00006C88 /* BobbleHeadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BobbleHeadAppDelegate.m; sourceTree = "<group>"; };
 		CFD8D41E1352A1FA00006C88 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		CFD8D4201352A1FA00006C88 /* BobbleHeadViewController.h */ = {isa = PBXFileReference; path = BobbleHeadViewController.h; sourceTree = "<group>"; };
+		CFD8D4201352A1FA00006C88 /* BobbleHeadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BobbleHeadViewController.h; sourceTree = "<group>"; };
 		CFD8D4211352A1FA00006C88 /* BobbleHeadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BobbleHeadViewController.m; sourceTree = "<group>"; };
 		CFD8D4241352A1FA00006C88 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BobbleHeadViewController.xib; sourceTree = "<group>"; };
 		CFD8D42B1352A1FA00006C88 /* BobbleHeadTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BobbleHeadTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFD8D4331352A1FA00006C88 /* BobbleHeadTests-Info.plist */ = {isa = PBXFileReference; path = "BobbleHeadTests-Info.plist"; sourceTree = "<group>"; };
+		CFD8D4331352A1FA00006C88 /* BobbleHeadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BobbleHeadTests-Info.plist"; sourceTree = "<group>"; };
 		CFD8D4351352A1FA00006C88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CFD8D4371352A1FA00006C88 /* BobbleHeadTests-Prefix.pch */ = {isa = PBXFileReference; path = "BobbleHeadTests-Prefix.pch"; sourceTree = "<group>"; };
+		CFD8D4371352A1FA00006C88 /* BobbleHeadTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BobbleHeadTests-Prefix.pch"; sourceTree = "<group>"; };
 		CFD8D4381352A1FA00006C88 /* BobbleHeadTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BobbleHeadTests.h; sourceTree = "<group>"; };
 		CFD8D43A1352A1FA00006C88 /* BobbleHeadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BobbleHeadTests.m; sourceTree = "<group>"; };
+		CFD8D4441352A2AE00006C88 /* Che Guevara shirt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Che Guevara shirt.jpg"; sourceTree = "<group>"; };
+		CFD8D4461352A63A00006C88 /* ali_large_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ali_large_head.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,8 @@
 		CFD8D4121352A1FA00006C88 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CFD8D4461352A63A00006C88 /* ali_large_head.png */,
+				CFD8D4441352A2AE00006C88 /* Che Guevara shirt.jpg */,
 				CFD8D4131352A1FA00006C88 /* BobbleHead-Info.plist */,
 				CFD8D4141352A1FA00006C88 /* InfoPlist.strings */,
 				CFD8D4171352A1FA00006C88 /* BobbleHead-Prefix.pch */,
@@ -225,6 +231,8 @@
 				CFD8D4161352A1FA00006C88 /* InfoPlist.strings in Resources */,
 				CFD8D41F1352A1FA00006C88 /* MainWindow.xib in Resources */,
 				CFD8D4251352A1FA00006C88 /* BobbleHeadViewController.xib in Resources */,
+				CFD8D4451352A2AE00006C88 /* Che Guevara shirt.jpg in Resources */,
+				CFD8D4471352A63A00006C88 /* ali_large_head.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,10 +337,10 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -343,10 +351,10 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 			};
