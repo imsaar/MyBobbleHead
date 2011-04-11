@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFD8D40C1352A1FA00006C88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD8D40B1352A1FA00006C88 /* UIKit.framework */; };
+		CFD8D40E1352A1FA00006C88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD8D40D1352A1FA00006C88 /* Foundation.framework */; };
+		CFD8D4101352A1FA00006C88 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD8D40F1352A1FA00006C88 /* CoreGraphics.framework */; };
+		CFD8D4161352A1FA00006C88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFD8D4141352A1FA00006C88 /* InfoPlist.strings */; };
+		CFD8D4191352A1FA00006C88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD8D4181352A1FA00006C88 /* main.m */; };
+		CFD8D41C1352A1FA00006C88 /* BobbleHeadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD8D41B1352A1FA00006C88 /* BobbleHeadAppDelegate.m */; };
+		CFD8D41F1352A1FA00006C88 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFD8D41D1352A1FA00006C88 /* MainWindow.xib */; };
+		CFD8D4221352A1FA00006C88 /* BobbleHeadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD8D4211352A1FA00006C88 /* BobbleHeadViewController.m */; };
+		CFD8D4251352A1FA00006C88 /* BobbleHeadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFD8D4231352A1FA00006C88 /* BobbleHeadViewController.xib */; };
+		CFD8D42C1352A1FA00006C88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD8D40B1352A1FA00006C88 /* UIKit.framework */; };
+		CFD8D42D1352A1FA00006C88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD8D40D1352A1FA00006C88 /* Foundation.framework */; };
+		CFD8D42E1352A1FA00006C88 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD8D40F1352A1FA00006C88 /* CoreGraphics.framework */; };
+		CFD8D4361352A1FA00006C88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFD8D4341352A1FA00006C88 /* InfoPlist.strings */; };
+		CFD8D4391352A1FA00006C88 /* BobbleHeadTests.h in Resources */ = {isa = PBXBuildFile; fileRef = CFD8D4381352A1FA00006C88 /* BobbleHeadTests.h */; };
+		CFD8D43B1352A1FA00006C88 /* BobbleHeadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD8D43A1352A1FA00006C88 /* BobbleHeadTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFD8D42F1352A1FA00006C88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFD8D3FE1352A1FA00006C88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFD8D4061352A1FA00006C88;
+			remoteInfo = BobbleHead;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFD8D4071352A1FA00006C88 /* BobbleHead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BobbleHead.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD8D40B1352A1FA00006C88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CFD8D40D1352A1FA00006C88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CFD8D40F1352A1FA00006C88 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CFD8D4131352A1FA00006C88 /* BobbleHead-Info.plist */ = {isa = PBXFileReference; path = "BobbleHead-Info.plist"; sourceTree = "<group>"; };
+		CFD8D4151352A1FA00006C88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFD8D4171352A1FA00006C88 /* BobbleHead-Prefix.pch */ = {isa = PBXFileReference; path = "BobbleHead-Prefix.pch"; sourceTree = "<group>"; };
+		CFD8D4181352A1FA00006C88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFD8D41A1352A1FA00006C88 /* BobbleHeadAppDelegate.h */ = {isa = PBXFileReference; path = BobbleHeadAppDelegate.h; sourceTree = "<group>"; };
+		CFD8D41B1352A1FA00006C88 /* BobbleHeadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BobbleHeadAppDelegate.m; sourceTree = "<group>"; };
+		CFD8D41E1352A1FA00006C88 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CFD8D4201352A1FA00006C88 /* BobbleHeadViewController.h */ = {isa = PBXFileReference; path = BobbleHeadViewController.h; sourceTree = "<group>"; };
+		CFD8D4211352A1FA00006C88 /* BobbleHeadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BobbleHeadViewController.m; sourceTree = "<group>"; };
+		CFD8D4241352A1FA00006C88 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BobbleHeadViewController.xib; sourceTree = "<group>"; };
+		CFD8D42B1352A1FA00006C88 /* BobbleHeadTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BobbleHeadTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD8D4331352A1FA00006C88 /* BobbleHeadTests-Info.plist */ = {isa = PBXFileReference; path = "BobbleHeadTests-Info.plist"; sourceTree = "<group>"; };
+		CFD8D4351352A1FA00006C88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFD8D4371352A1FA00006C88 /* BobbleHeadTests-Prefix.pch */ = {isa = PBXFileReference; path = "BobbleHeadTests-Prefix.pch"; sourceTree = "<group>"; };
+		CFD8D4381352A1FA00006C88 /* BobbleHeadTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BobbleHeadTests.h; sourceTree = "<group>"; };
+		CFD8D43A1352A1FA00006C88 /* BobbleHeadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BobbleHeadTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFD8D4041352A1FA00006C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD8D40C1352A1FA00006C88 /* UIKit.framework in Frameworks */,
+				CFD8D40E1352A1FA00006C88 /* Foundation.framework in Frameworks */,
+				CFD8D4101352A1FA00006C88 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD8D4271352A1FA00006C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD8D42C1352A1FA00006C88 /* UIKit.framework in Frameworks */,
+				CFD8D42D1352A1FA00006C88 /* Foundation.framework in Frameworks */,
+				CFD8D42E1352A1FA00006C88 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFD8D3FC1352A1FA00006C88 = {
+			isa = PBXGroup;
+			children = (
+				CFD8D4111352A1FA00006C88 /* BobbleHead */,
+				CFD8D4311352A1FA00006C88 /* BobbleHeadTests */,
+				CFD8D40A1352A1FA00006C88 /* Frameworks */,
+				CFD8D4081352A1FA00006C88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFD8D4081352A1FA00006C88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFD8D4071352A1FA00006C88 /* BobbleHead.app */,
+				CFD8D42B1352A1FA00006C88 /* BobbleHeadTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFD8D40A1352A1FA00006C88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFD8D40B1352A1FA00006C88 /* UIKit.framework */,
+				CFD8D40D1352A1FA00006C88 /* Foundation.framework */,
+				CFD8D40F1352A1FA00006C88 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFD8D4111352A1FA00006C88 /* BobbleHead */ = {
+			isa = PBXGroup;
+			children = (
+				CFD8D41A1352A1FA00006C88 /* BobbleHeadAppDelegate.h */,
+				CFD8D41B1352A1FA00006C88 /* BobbleHeadAppDelegate.m */,
+				CFD8D41D1352A1FA00006C88 /* MainWindow.xib */,
+				CFD8D4201352A1FA00006C88 /* BobbleHeadViewController.h */,
+				CFD8D4211352A1FA00006C88 /* BobbleHeadViewController.m */,
+				CFD8D4231352A1FA00006C88 /* BobbleHeadViewController.xib */,
+				CFD8D4121352A1FA00006C88 /* Supporting Files */,
+			);
+			path = BobbleHead;
+			sourceTree = "<group>";
+		};
+		CFD8D4121352A1FA00006C88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFD8D4131352A1FA00006C88 /* BobbleHead-Info.plist */,
+				CFD8D4141352A1FA00006C88 /* InfoPlist.strings */,
+				CFD8D4171352A1FA00006C88 /* BobbleHead-Prefix.pch */,
+				CFD8D4181352A1FA00006C88 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFD8D4311352A1FA00006C88 /* BobbleHeadTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFD8D4381352A1FA00006C88 /* BobbleHeadTests.h */,
+				CFD8D43A1352A1FA00006C88 /* BobbleHeadTests.m */,
+				CFD8D4321352A1FA00006C88 /* Supporting Files */,
+			);
+			path = BobbleHeadTests;
+			sourceTree = "<group>";
+		};
+		CFD8D4321352A1FA00006C88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFD8D4331352A1FA00006C88 /* BobbleHeadTests-Info.plist */,
+				CFD8D4341352A1FA00006C88 /* InfoPlist.strings */,
+				CFD8D4371352A1FA00006C88 /* BobbleHeadTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFD8D4061352A1FA00006C88 /* BobbleHead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD8D43E1352A1FA00006C88 /* Build configuration list for PBXNativeTarget "BobbleHead" */;
+			buildPhases = (
+				CFD8D4031352A1FA00006C88 /* Sources */,
+				CFD8D4041352A1FA00006C88 /* Frameworks */,
+				CFD8D4051352A1FA00006C88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BobbleHead;
+			productName = BobbleHead;
+			productReference = CFD8D4071352A1FA00006C88 /* BobbleHead.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFD8D42A1352A1FA00006C88 /* BobbleHeadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD8D4411352A1FA00006C88 /* Build configuration list for PBXNativeTarget "BobbleHeadTests" */;
+			buildPhases = (
+				CFD8D4261352A1FA00006C88 /* Sources */,
+				CFD8D4271352A1FA00006C88 /* Frameworks */,
+				CFD8D4281352A1FA00006C88 /* Resources */,
+				CFD8D4291352A1FA00006C88 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFD8D4301352A1FA00006C88 /* PBXTargetDependency */,
+			);
+			name = BobbleHeadTests;
+			productName = BobbleHeadTests;
+			productReference = CFD8D42B1352A1FA00006C88 /* BobbleHeadTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFD8D3FE1352A1FA00006C88 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CFD8D4011352A1FA00006C88 /* Build configuration list for PBXProject "BobbleHead" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CFD8D3FC1352A1FA00006C88;
+			productRefGroup = CFD8D4081352A1FA00006C88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFD8D4061352A1FA00006C88 /* BobbleHead */,
+				CFD8D42A1352A1FA00006C88 /* BobbleHeadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFD8D4051352A1FA00006C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD8D4161352A1FA00006C88 /* InfoPlist.strings in Resources */,
+				CFD8D41F1352A1FA00006C88 /* MainWindow.xib in Resources */,
+				CFD8D4251352A1FA00006C88 /* BobbleHeadViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD8D4281352A1FA00006C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD8D4361352A1FA00006C88 /* InfoPlist.strings in Resources */,
+				CFD8D4391352A1FA00006C88 /* BobbleHeadTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CFD8D4291352A1FA00006C88 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFD8D4031352A1FA00006C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD8D4191352A1FA00006C88 /* main.m in Sources */,
+				CFD8D41C1352A1FA00006C88 /* BobbleHeadAppDelegate.m in Sources */,
+				CFD8D4221352A1FA00006C88 /* BobbleHeadViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD8D4261352A1FA00006C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD8D43B1352A1FA00006C88 /* BobbleHeadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFD8D4301352A1FA00006C88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFD8D4061352A1FA00006C88 /* BobbleHead */;
+			targetProxy = CFD8D42F1352A1FA00006C88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFD8D4141352A1FA00006C88 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD8D4151352A1FA00006C88 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CFD8D41D1352A1FA00006C88 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD8D41E1352A1FA00006C88 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CFD8D4231352A1FA00006C88 /* BobbleHeadViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD8D4241352A1FA00006C88 /* en */,
+			);
+			name = BobbleHeadViewController.xib;
+			sourceTree = "<group>";
+		};
+		CFD8D4341352A1FA00006C88 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD8D4351352A1FA00006C88 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFD8D43C1352A1FA00006C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFD8D43D1352A1FA00006C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CFD8D43F1352A1FA00006C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BobbleHead/BobbleHead-Prefix.pch";
+				INFOPLIST_FILE = "BobbleHead/BobbleHead-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CFD8D4401352A1FA00006C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BobbleHead/BobbleHead-Prefix.pch";
+				INFOPLIST_FILE = "BobbleHead/BobbleHead-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CFD8D4421352A1FA00006C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BobbleHead.app/BobbleHead";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BobbleHeadTests/BobbleHeadTests-Prefix.pch";
+				INFOPLIST_FILE = "BobbleHeadTests/BobbleHeadTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CFD8D4431352A1FA00006C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BobbleHead.app/BobbleHead";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BobbleHeadTests/BobbleHeadTests-Prefix.pch";
+				INFOPLIST_FILE = "BobbleHeadTests/BobbleHeadTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFD8D4011352A1FA00006C88 /* Build configuration list for PBXProject "BobbleHead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD8D43C1352A1FA00006C88 /* Debug */,
+				CFD8D43D1352A1FA00006C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD8D43E1352A1FA00006C88 /* Build configuration list for PBXNativeTarget "BobbleHead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD8D43F1352A1FA00006C88 /* Debug */,
+				CFD8D4401352A1FA00006C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFD8D4411352A1FA00006C88 /* Build configuration list for PBXNativeTarget "BobbleHeadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD8D4421352A1FA00006C88 /* Debug */,
+				CFD8D4431352A1FA00006C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFD8D3FE1352A1FA00006C88 /* Project object */;
+}
