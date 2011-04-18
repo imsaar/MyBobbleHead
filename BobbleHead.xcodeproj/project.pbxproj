@@ -451,6 +451,7 @@
 				CFD8D4401352A1FA00006C88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFD8D4411352A1FA00006C88 /* Build configuration list for PBXNativeTarget "BobbleHeadTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +460,7 @@
 				CFD8D4431352A1FA00006C88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

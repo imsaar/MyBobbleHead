@@ -46,7 +46,7 @@
 					<object class="IBUIImageView" id="30809654">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">256</int>
-						<string key="NSFrame">{{-20, 115}, {350, 355}}</string>
+						<string key="NSFrame">{{-15, 216}, {350, 355}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="228923785"/>
@@ -63,7 +63,7 @@
 					<object class="IBUIImageView" id="534583677">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">256</int>
-						<string key="NSFrame">{{-37, -30}, {375, 500}}</string>
+						<string key="NSFrame">{{36, 6}, {251, 311}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="30809654"/>
@@ -180,10 +180,10 @@
 						<reference key="object" ref="774585933"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="30809654"/>
-							<reference ref="534583677"/>
 							<reference ref="698513645"/>
 							<reference ref="228923785"/>
+							<reference ref="534583677"/>
+							<reference ref="30809654"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -242,7 +242,7 @@
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">15</int>
+			<int key="maxID">16</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -318,7 +318,7 @@
 			<object class="NSMutableArray" key="dict.values">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<string>{350, 355}</string>
-				<string>{375, 500}</string>
+				<string>{237, 317}</string>
 			</object>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">301</string>

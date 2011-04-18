@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BobbleHeadViewController : UIViewController {
+@interface BobbleHeadViewController : UIViewController <UIAccelerometerDelegate> {
     
   UIImageView *headImage;
 }
@@ -19,5 +19,7 @@
 - (void)moveImage:(UIImageView *)image duration:(NSTimeInterval)duration
             curve:(int)curve x:(CGFloat)x y:(CGFloat)y;
 - (IBAction)verticalMovementSlider:(id)sender;
+- (void)moveX:(float)value;
+- (void)moveY:(float)value;
 
 @end
