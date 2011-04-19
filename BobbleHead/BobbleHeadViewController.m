@@ -92,53 +92,18 @@
 {
   float accelX = [accel x];
   float accelY = [accel y];
+  
   CGRect bounds = [headImage bounds];
   CGFloat x = bounds.origin.x;
   CGFloat y = bounds.origin.y;
-  x = x + (accelX * 40);
-  y = y + (accelY * 40);
+  
+  x = x + 150 + (accelX * 80);
+  y = y + 150 + (accelY * -80);
   CGPoint centerPoint = CGPointMake(x,y);
   
   NSLog(@"%f, %f, %f ", x, y, [accel z]);
   headImage.center = centerPoint;
+  [headImage setNeedsDisplay];
 }
 
-- (void)moveX:(float)value
-{
-  CGRect bounds = [headImage bounds];
-  CGFloat x = bounds.origin.x;
-  CGFloat y = bounds.origin.y;
-  NSLog(@"horizontal movement");
-  [self moveImage:headImage duration:0.2 curve:UIViewAnimationCurveLinear x:(x + 40.0 * value) y:y];  
-}
-
-- (void)moveY:(float)value
-{
-  CGRect bounds = [headImage bounds];
-  CGFloat x = bounds.origin.x;
-  CGFloat y = bounds.origin.y;
-  NSLog(@"vertical movement");
-  [self moveImage:headImage duration:0.2 curve:UIViewAnimationCurveLinear x:x y:(y + 40.0 * value)];  
-}
-
-- (IBAction)verticalMovementSlider:(id)sender {
-  UISlider *verticalSlider = (UISlider *)sender;
-  float vSliderValue = verticalSlider.value;
-  CGRect bounds = [headImage bounds];
-  CGFloat x = bounds.origin.x;
-  CGFloat y = bounds.origin.y;
-  NSLog(@"vertical movement");
-  [self moveImage:headImage duration:0.2 curve:UIViewAnimationCurveLinear x:x y:(y + 40.0 * vSliderValue)];
-}
-  
-
-- (IBAction)horizontalMovementSlider:(id)sender {
-  UISlider *horizontalSlider = (UISlider *)sender;
-  float hSliderValue = horizontalSlider.value;
-  CGRect bounds = [headImage bounds];
-  CGFloat x = bounds.origin.x;
-  CGFloat y = bounds.origin.y;
-  NSLog(@"horizontal movement");
-  [self moveImage:headImage duration:0.2 curve:UIViewAnimationCurveLinear x:(x + 40.0 * hSliderValue) y:y];
-}
 @end
