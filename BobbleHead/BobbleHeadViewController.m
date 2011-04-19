@@ -85,23 +85,29 @@
   
   // Commit the changes
   [UIView commitAnimations];
-  
 }
 
 - (void) accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)accel 
 {
   float accelX = [accel x];
   float accelY = [accel y];
-  
+  NSLog(@"x = %f, y = %f, z = %f", accelX, accelY, [accel z]);
+
   CGRect bounds = [headImage bounds];
   CGFloat x = bounds.origin.x;
   CGFloat y = bounds.origin.y;
   
-  x = x + 150 + (accelX * 80);
-  y = y + 150 + (accelY * -80);
-  CGPoint centerPoint = CGPointMake(x,y);
+  x = x + (accelX * 80);
+  y = y + (accelY * -80);
+
+  //[self moveCenterToX:x andY:y];
+  [self moveImage:headImage duration:0.4 curve:UIViewAnimationCurveLinear x:x y:y];
+}
+
+- (void) moveCenterToX:(float)x andY: (float)y
+{
+  CGPoint centerPoint = CGPointMake(x+150, y+150);
   
-  NSLog(@"%f, %f, %f ", x, y, [accel z]);
   headImage.center = centerPoint;
   [headImage setNeedsDisplay];
 }
